@@ -13,4 +13,4 @@ app.use(cors());
 
 app.use("/auth", authRoutes);
 
-app.listen(5001, () => console.log("Auth Service running on port 5001"));
+app.listen(5002, () => console.log("Auth Service running on port 5002"));
